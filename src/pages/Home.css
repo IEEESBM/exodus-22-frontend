@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home-page {
+    background-image: url("../Images/background-pic.svg");
+    height: 65vw;
+    max-width: 100%;
+}
+
+.logo {
+    padding-top: 6%;
+    max-width: 100%;
+}
+
+.logo-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+    height: 38%;
+}
+
+.cont-1 {
+    width: 36%;
+    height: 5%;
+    background: rgba(22, 29, 111, 0.7);
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top: 7%;
+    font-family: 'Century Schoolbook', sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-align: center;
+    color: white;
+    padding: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-comp {
+    margin-top: 2.7%;
+    text-align: center;
+}
+
+.button-home {
+    background: #000000;
+    border: 1px solid #18FFFF;
+    box-shadow: 1px 1px 12px 6px rgba(24, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 14%;
+    height: 7%;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: center;
+    margin-left: 2%;
+    padding: 1%;
+    text-decoration: none;
+}
+
+
+@media (max-width:480px) {
+
+    .home-page {
+        background-image: url("../Images/phone-background.svg");
+        height: 100vh;
+    }
+
+    .logo {
+        padding-top: 6%;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 38%;
+    }
+
+    .logo-pic {
+        display: block;
+        margin-top: 30%;
+        margin-left: 2%;
+        margin-right: auto;
+        width: 100%;
+        height: 58%;
+    }
+
+    .cont-1 {
+        width: 63%;
+        height: 3%;
+        background: rgba(22, 29, 111, 0.7);
+        box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        margin-top: 10%;
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 4vw;
+        font-weight: 400;
+        letter-spacing: 0.12em;
+        text-align: center;
+        color: white;
+        padding: 1%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button-home {
+        background: #000000;
+        border: 1px solid #18FFFF;
+        box-shadow: 1px 1px 12px 6px rgba(24, 255, 255, 0.5);
+        border-radius: 15px;
+        width: 26%;
+        height: 8%;
+        color: white;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 4.5vw;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-left: 4%;
+        padding: 1%;
+        margin-top: 10%;
+    }
+
+
+
+}

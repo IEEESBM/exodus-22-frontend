@@ -1,0 +1,72 @@
+.countdown-timer {
+    width: 84%;
+    height: 20%;
+    background: rgba(22, 29, 111, 0.7);
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+    margin-top: 0.32%;
+
+}
+
+.t-value {
+    font-size: 8.4vw;
+    font-weight: 700;
+}
+
+.container-value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.container-value-day {
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.n-value {
+    font-size: 1.6vw;
+}
+
+@media (max-width:480px) {
+
+    .countdown-timer {
+        width: 85%;
+        height: 18%;
+        background: rgba(22, 29, 111, 0.7);
+        box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7%;
+        margin-top: 1%;
+
+    }
+
+    .container-value {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 2%;
+    }
+
+    .t-value {
+        font-size: 11.4vw;
+        font-weight: 700;
+    }
+
+    .n-value {
+        font-size: 2.6vw;
+    }
+
+}
