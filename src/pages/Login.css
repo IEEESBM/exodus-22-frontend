@@ -1,0 +1,278 @@
+* {
+    margin: 0px;
+    margin: 0px;
+  }
+  
+  .emailcomp {
+    margin-top: 7.1%;
+    margin-left: 5%;
+    margin-bottom: 4.4%;
+    font-family: "Century Schoolbook";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 111%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    letter-spacing: -0.04em;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .emailcomp input {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid rgba(203, 233, 255, 1);
+    width: 90%;
+    color: #fff;
+    padding-top: 5%;
+    font-size: 1.5rem;
+  }
+  
+  .loginbutton {
+    margin-top: 10%;
+    margin-bottom: 1.9%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .loginbutton button {
+    background: rgba(10, 19, 29, 0.62);
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-bottom: 2.2%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: #fff;
+    padding: 12px 25px;
+    border: 3px solid #fff;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: "Century Schoolbook";
+  }
+  
+  .forgot {
+    font-family: "Century Schoolbook";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 111%;
+    margin-bottom: 2.7%;
+    position: absolute;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .dont {
+    margin-top: 5%;
+    margin-bottom: 3.9%;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 111%;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .login-page {
+    background-image: url("../Images/circuit-img.svg"),
+      linear-gradient(136.06deg, #9d4fb3 -12.44%, #102670 39.32%, #020c20 88.35%);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    font-size: 45px;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .login-box {
+    background: linear-gradient(180deg, #0c1f5d 0%, #202a77 100%);
+    opacity: 0.9;
+    border: 4px solid rgba(203, 233, 255, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 25%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    color: white;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  
+  @media only screen and (max-width: 500px) {
+    .login-page {
+      background-image: url("../Images/circuit2.svg"),
+        linear-gradient(
+          136.06deg,
+          #9d4fb3 -12.44%,
+          #102670 39.32%,
+          #020c20 88.35%
+        );
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .login-box {
+      background: linear-gradient(180deg, #0c1f5d 0%, #202a77 100%);
+      opacity: 0.9;
+      border: 4px solid rgba(203, 233, 255, 1);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 30px;
+      width: 90%;
+      height: 60%;
+      margin-top: 0.7%;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      color: white;
+      position: relative;
+      padding-top: 30px;
+      padding-bottom: 2%;
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+  
+    .login-page {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .login-box {
+      background: linear-gradient(180deg, #0c1f5d 0%, #202a77 100%);
+      opacity: 0.9;
+      border: 4px solid rgba(203, 233, 255, 1);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 30px;
+      width: 85%;
+      height: 60%;
+      color: white;
+      position: relative;
+      padding-top: 30px;
+      padding-bottom: 2%;
+      padding-left: 3%;
+      padding-right: 3%;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+    }
+  
+    .loginbutton button {
+      background: rgba(10, 19, 29, 0.62);
+      border-radius: 15px;
+      margin-top: 15%;
+      margin-bottom: 2.2%;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      color: #fff;
+      padding: 12px 25px;
+      border: 3px solid #fff;
+      cursor: pointer;
+      font-size: 5vw;
+      font-weight: 700;
+      font-family: "Century Schoolbook";
+    }
+  
+    .emailcomp input {
+      background: transparent;
+      border: 0px none;
+      border-bottom: 5px solid rgba(203, 233, 255, 1);
+      width: 85%;
+      color: #fff;
+      padding-top: 5%;
+    }
+  
+    .emailcomp {
+      margin-top: 7.1%;
+      margin-left: 5%;
+      margin-bottom: 4.4%;
+      font-family: "Century Schoolbook";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 7vw;
+      line-height: 111%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: center;
+      letter-spacing: -0.04em;
+      font-weight: 700;
+      color: #ffffff;
+      padding-top: 5%;
+    }
+  
+    .dont {
+      margin-top: 5%;
+      margin-bottom: 3.9%;
+      text-align: center;
+      font-size: 6vw;
+      line-height: 111%;
+      color: #fff;
+      font-weight: 700;
+      font-family: "Century Schoolbook";
+    }
+  
+    .loginbutton {
+      margin-top: 5%;
+      margin-bottom: 1.9%;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .forgot {
+      font-family: "Century Schoolbook";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 6vw;
+      line-height: 111%;
+      margin-bottom: 2.7%;
+      position: absolute;
+      right: 2rem;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.04em;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700;
+    }
+  
+    .title {
+      font-size: 10vw;
+      color: white;
+      font-weight: 700;
+    }
+  }
