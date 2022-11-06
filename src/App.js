@@ -8,7 +8,10 @@ import About from "./pages/About";
 import Rules from "./pages/Rules";
 import Submission from "./pages/Submission";
 import Navbar from "./pages/Navbar";
+import Navbar2 from "./pages/Navbar2";
 import Footer from "./pages/Footer";
+import './pages/navbar.css';
+import './pages/footer.css';
 
 function App() {
   return (
@@ -23,6 +26,7 @@ function App() {
         <Route path="/rules" element={<Rules />} />
         <Route path="/submission" element={<Submission />} />
         <Route path="/navbar" element={<Navbar />} />
+        <Route path="/navbar2" element={<Navbar2 />} />
         <Route path="/footer" element={<Footer />} />
       </Routes>
     </BrowserRouter>

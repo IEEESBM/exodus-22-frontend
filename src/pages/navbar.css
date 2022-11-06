@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Anurati-Regular';
+    src: url('/src/assets/Anurati/Anurati-Regular.otf');
+  }
+  
+  .navbar {
+    width: 100wh;
+    height: 6vh;
+  
+    background: rgb(29,35,118) !important;
+    mix-blend-mode: normal;
+    box-shadow: 0rem 0.5rem 6.875rem #000000;
+  }
+  
+  .navbar-brand {
+    width: 7.5rem;
+    height: 0.125rem;
+  
+    font-family: 'Anurati-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 100%;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.05em;
+  
+    color: #FFFFFF;
+  
+    margin-left: 1rem;
+  }
+  
+  .nav-link {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 100%;
+  
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+  
+    margin-inline: 0.5rem;
+  }
+  
+  .nav-link:hover {
+    color: rgb(5,133,145) !important;
+  }
+  
+  .navbar-brand:hover {
+    color: #FFFFFF;
+  }
+  
+  .btn {
+    border: solid 1.5px rgb(5,133,145);
+    box-shadow: none;
+  }
+  
+  .btn:hover {
+    background-color: rgb(5,133,145, 0.75);
+    border: solid 1.5px rgb(5,133,145);
+    box-shadow: none;
+    color: rgb(255, 255, 255, 0.75) !important;
+  }
+  
+  .btn:active {
+    background-color: rgb(5,133,145, 0.75);
+    border: solid 1px rgb(5,133,145);
+    box-shadow: none;
+    color: #FFFFFF !important;
+  }
+  
+  .btn:focus {
+    background-color: rgb(5,133,145, 0.75);
+    border: solid 1px rgb(5,133,145);
+    box-shadow: none;
+    color: #FFFFFF !important;
+  }
+  
+  @media only screen and (max-width: 990px) {
+    .active{
+      margin-top: 0.4rem;
+    }
+    .navbar-nav {
+      background-color: rgba(29, 35, 118);
+      width: 100vw;
+      margin-left: -0.75rem;
+    }
+    .collapsing {
+      background-color: rgba(29, 35, 118);
+      width: 100vw;
+      margin-left: -0.75rem;
+      padding-left: 0.75rem;
+      margin-right: -0.75rem;
+    }
+    .navbar {
+      height: 3.5rem;
+    }
+    .navbar-toggler {
+      box-shadow: 0 0 0 0 !important;
+    }
+  
+    .btn {
+      margin-bottom: 0.2rem;
+    }
+  
+    .login-btn {
+      width: 4rem;
+    }
+  
+    .logout-btn {
+      width: 5rem;
+    }
+  
+    .reg-btn {
+      width: 5.75rem;
+    }
+  }

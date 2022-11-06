@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Anurati-Regular';
+    src: url('/src/assets/Anurati/Anurati-Regular.otf');
+}
+
+.footer {
+    column-count: 3;
+    width: 100vw;
+    left: 0;
+
+    background: rgb(29, 35, 118);
+}
+
+.logo {
+    justify-content: center;
+
+    font-family: 'Anurati-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 111%;
+    /* or 72px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+
+    color: #FFFFFF;
+}
+
+.socials {
+
+    font-family: 'Century Schoolbook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    /* identical to box height, or 257% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.contact {
+
+    font-family: 'Century Schoolbook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 5rem;
+    /* identical to box height, or 257% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.linkedin {
+    margin: 0.1rem;
+    margin-inline: 1rem;
+    margin-left: 0;
+}
+
+.facebook {
+    margin: 0.1rem;
+    margin-inline: 1rem;
+}
+
+.instagram {
+    margin: 0.1rem;
+    margin-inline: 1rem;
+}
+
+.dribbble {
+    margin: 0.1rem;
+    margin-inline: 1rem;
+    margin-right: 0;
+}
+
+.mail {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    margin-bottom: -2rem;
+
+    font-family: 'Century Schoolbook';
+    font-style: normal;
+    font-size: 1.2rem;
+
+
+    color: #FFFFFF;
+}
+
+.setmargin {
+    margin-bottom: -2rem;
+}
+
+.contactus {
+    margin-bottom: -2rem;
+}
+
+@media only screen and (max-width: 1100px) {
+    .footer {
+        column-count: 1;
+    }
+
+    .logo {
+        display: block;
+        margin-bottom: -0.2rem;
+        font-size: 1.75rem;
+        margin-top: 2rem;
+    }
+
+    .socials-logo {
+        margin-top: -4rem;
+    }
+
+    .socials {
+        font-size: 0.7rem;
+        margin-top: -2rem;
+    }
+
+    .contact {
+        font-size: 0.7rem;
+        margin-top: -3rem;
+    }
+
+    .mail {
+        font-size: 0.7rem;
+        margin-bottom: -3rem;
+    }
+
+    .contactus {
+        margin-bottom: -3rem;
+    }
+
+    .vect {
+        width: 1rem;
+    }
+  }
