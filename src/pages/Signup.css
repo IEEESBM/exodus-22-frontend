@@ -13,7 +13,7 @@ body {
 width: 100%;
 height: 100%;
 background-attachment: fixed;
-background-image: url("./bg.svg"),linear-gradient(136.06deg, #9D4FB3 -12.44%, #102670 39.32%, #020C20 88.35%);   
+background-image: url("../Images/bg.svg"),linear-gradient(136.06deg, #9D4FB3 -12.44%, #102670 39.32%, #020C20 88.35%);   
     background-repeat: no-repeat;
     background-size: cover; 
    
@@ -106,8 +106,7 @@ color: #CBE9FF;
 
 
 .box .inputBox input {
-    /* underboxforemail */
-   /* background:linear-gradient(180deg, #0C1F5D 0%, #202A77 100%); */
+    /* underline */
    background: transparent;
     color: #FFF;
    border: 3px #0C1F5D;
@@ -123,7 +122,7 @@ color: #CBE9FF;
 
 .box input[type="submit"], .box button[type="submit"], a.button {
     font-family: 'Century Schoolbook';
-   /* padding done */
+  
     margin: auto;
     padding: 5.5%;
     
@@ -241,7 +240,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 1.44rem;
 line-height: 111%;
-/* identical to box height, or 50px */
 display: flex;
 align-items: center;
 text-align: center;
