@@ -1,0 +1,186 @@
+@import url('http://fonts.cdnfonts.com/css/new-century-schoolbook?styles=94889');
+
+body{
+    margin: 0;
+}
+.about-body {
+    font-family: 'Century Schoolbook', sans-serif;
+    
+    background: url("../Images/bg-ab.svg"),linear-gradient(90deg, #A353BC -23.78%, #152276 32.8%, #020C20 86.39%);
+    /* linear-gradient(145deg, #A353BC -23.78%, #152276 32.8%, #020C20 86.39%) */
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+    display: block;
+    /* display: flex;
+    flex-direction: column; */
+    /* overflow: auto; */
+    height: 1000px;
+}
+
+.content {
+    width: 83%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    margin-top: 100px;
+    font-size: 75px;
+    font-weight: 400;
+    -webkit-text-stroke: 2px #322B80;
+}
+
+.block1,
+.block2 {
+    display: flex;
+    justify-content: space-between;
+    height: 443px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block2 {
+    flex-direction: row-reverse;
+    height: 500px;
+}
+
+.text1,
+.text2 {
+    width: 63%;
+    font-size: 28px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text2 {
+    text-align: right;
+}
+
+.img1 {
+    height: 80%;
+}
+
+.img2 {
+    height: 75%;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .img1 {
+        height: 71%;
+    }
+
+    .img2 {
+        height: 55%;
+    }
+
+    .text1,
+    .text2 {
+        font-size: 24px;
+    }
+
+    .header {
+        margin-top: 75px;
+        font-size: 65px;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .text1,
+    .text2 {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 900px) {
+
+    .text1,
+    .text2 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .img1 {
+        height: 51%;
+    }
+
+    .img2 {
+        height: 55%;
+    }
+
+    .text1,
+    .text2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    /* html,
+    .body {
+        font-family: 'Century Schoolbook', sans-serif;
+        background: url("./about-images/bg.svg"), linear-gradient(133.24deg, #A353BC -23.78%, #152276 32.8%, #020C20 86.39%);
+        background-size: contain;
+    } */
+
+    .block1,
+    .block2 {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .img1 {
+        height: 100%;
+        width: 71%;
+    }
+
+    .img2 {
+        height: 90%;
+    }
+
+    .text1,
+    .text2 {
+        width: 100%;
+    }
+
+    .block1,
+    .block2 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .header {
+        font-size: 36px;
+        -webkit-text-stroke: 1px #322B80;
+        margin-bottom: 30px;
+    }
+
+    .text1,
+    .text2 {
+        font-size: 14px;
+    }
+
+    .img {
+        align-items: center;
+        height: 200px;
+    }
+
+    .text2 {
+        text-align: left;
+    }
+}
