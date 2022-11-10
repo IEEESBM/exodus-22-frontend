@@ -34,8 +34,28 @@ function Dashboard() {
     </section>
     <section className='team-details' id='team-page'>
     <div className="team-div">
-    teamdiv
       <div className='team-a'>
+        <div className='rectangle'>
+        <h3 className='rect-heading'>My Team</h3>
+        <div className='rect-main'>
+          <div className='rectangle-left'>  
+            <p className='rect-left-label'>Team Name:</p>
+            <p className='rect-left-label'>Team Code:</p>
+            <p className='rect-left-label'>Topic:</p>
+            <p className='rect-left-label'>Teammates :</p>
+          </div>
+          <div className='rectangle-right'>  
+            <p className='rect-right-label'>Avengers</p>
+            <p className='rect-right-label'>UP78</p>
+            <p className='rect-right-label'>Spider-man</p>
+            <p className='rect-right-label-member'>1. Thanos</p>
+            <p className='rect-right-label-member'>2. Hulk</p>
+            <p className='rect-right-label-member'>3. Captain</p>
+            <p className='rect-right-label-member'>4. Ironman</p>
+
+          </div>
+          </div>
+        </div>
       </div>
       <div className='team-b'>teamb</div>
     </div>
