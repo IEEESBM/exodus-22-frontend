@@ -56,6 +56,8 @@ function Dashboard() {
 
           </div>
           </div>
+          <button className="team-edit-button"><span className="team-edit-button-text">Delete Team</span></button>
+            <button className="team-edit-button"><span className="team-edit-button-text">Leave Team</span></button>
         </div>
       </div>
       <div className='team-b'><img className= "team-picture" src={teamImage} alt="profile-pic"/></div>

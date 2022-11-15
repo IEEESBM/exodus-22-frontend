@@ -241,6 +241,31 @@ color: rgba(24, 255, 255, 0.8);
     margin-top: 23%;
 }
 
+.team-edit-button{
+    padding: 1%;
+    margin:3%;
+    display: inline-block;
+    margin-left: 10%;
+    position: relative;
+    left: 22%;
+background: rgba(23, 33, 113, 0.7);
+border-radius: 15px;
+border: none;
+}
+
+
+.team-edit-button:hover{
+    box-shadow: 1px 1px 20px rgba(24, 255, 255, 0.5);
+}
+
+.team-edit-button-text{
+font-size: 1rem;
+line-height: 31px;
+text-align: center;
+
+color: #08B3E3;
+}
+
 @media screen and (min-width: 990px){
     .heading{
         font-size: 4rem;
@@ -279,6 +304,7 @@ color: rgba(24, 255, 255, 0.8);
 @media screen and (max-width: 820px){
     .profile-div{
         flex-direction: column;
+        overflow: hidden;
     }
 
     .profile-a{
@@ -292,6 +318,7 @@ color: rgba(24, 255, 255, 0.8);
     .profile-b{
         width: 100%;
         margin: 10% 20%;
+        overflow: hidden;
     }
 
     .profile-b-form{
@@ -302,10 +329,10 @@ color: rgba(24, 255, 255, 0.8);
         flex-direction: column;
     }
     .team-a{
-        width: 100%;
+        display: none;
     }
     .team-b{
-        visibility: hidden;
+        display: none;
     }
 }
 
