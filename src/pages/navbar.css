@@ -44,7 +44,7 @@
     letter-spacing: -0.05em;
     color: #FFFFFF;
   
-    margin-inline: 0.5rem;
+    margin-inline: 1rem;
   }
   
   .nav-link:hover {
@@ -56,29 +56,40 @@
   }
   
   .btn {
-    border: solid 1.5px rgb(5,133,145);
+    border-radius: 10%;
+    border: solid 1.5px white;
     box-shadow: none;
+    width: 7rem;
+    justify-content: center;
   }
   
   .btn:hover {
-    background-color: rgb(5,133,145, 0.75);
-    border: solid 1.5px rgb(5,133,145);
+    background-color: white;
+    border: solid 1.5px white;
     box-shadow: none;
-    color: rgb(255, 255, 255, 0.75) !important;
+    color: rgb(29,35,118) !important;
   }
   
   .btn:active {
-    background-color: rgb(5,133,145, 0.75);
-    border: solid 1px rgb(5,133,145);
+    background-color: white;
+    border: solid 1px white;
     box-shadow: none;
-    color: #FFFFFF !important;
+    color: #1d2376 !important;
   }
   
   .btn:focus {
-    background-color: rgb(5,133,145, 0.75);
-    border: solid 1px rgb(5,133,145);
+    background-color: white;
+    border: solid 1px white;
     box-shadow: none;
-    color: #FFFFFF !important;
+    color: #1d2376 !important;
+  }
+
+  .login-btn{
+    width: 5rem;
+  }
+
+  .logout-btn{
+    width: 6rem;
   }
   
   @media only screen and (max-width: 990px) {
@@ -106,17 +117,6 @@
   
     .btn {
       margin-bottom: 0.2rem;
-    }
-  
-    .login-btn {
-      width: 4rem;
-    }
-  
-    .logout-btn {
-      width: 5rem;
-    }
-  
-    .reg-btn {
-      width: 5.75rem;
+      border: 1px solid white;
     }
   }
