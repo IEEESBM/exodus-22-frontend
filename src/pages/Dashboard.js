@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import UserProfile from './Dashboard/UserProfile'
+import teamImage from './Dashboard/dashboard_team.svg'
 function Dashboard() {
   return (
     <div>
@@ -57,7 +58,7 @@ function Dashboard() {
           </div>
         </div>
       </div>
-      <div className='team-b'>teamb</div>
+      <div className='team-b'><img className= "team-picture" src={teamImage} alt="profile-pic"/></div>
     </div>
     </section>
     </div>
