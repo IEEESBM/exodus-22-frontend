@@ -1,0 +1,262 @@
+@font-face {
+    font-family: "CenSchoolBook-regular";
+    src: url("/src/assets/century/CenturySchoolbookRegularfont.ttf");
+}
+
+@font-face {
+    font-family: "CenSchoolBook-bold";
+    src: url("/src/assets/century/CenturySchoolbookBold.ttf");
+}
+
+* {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .1s ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-image:
+        linear-gradient(90deg,
+            rgba(151, 77, 175, 0.75),
+            rgba(19, 42, 125, 0.75), rgba(2, 12, 32, 0.75)), 
+                url('/src/Images/background-pic.svg');
+        background-size: 200vh;
+}
+
+.formMain {
+    box-sizing: border-box;
+    display: flex;
+    padding: 1em;
+    margin: auto;
+    width: 50%;
+    background: rgba(49, 69, 136, 0.4);
+    color: #ffffff;
+    /* mix-blend-mode: lighten; */
+    font-family: CenSchoolBook-bold;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.formHeading {
+    font-weight: 700;
+    font-size: 2.5vh;
+    font-family: CenSchoolBook-bold;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1{
+    padding: 2.5vh;
+}
+
+.text {
+    padding: 2.25vh;
+    font-size: 3.2vh;
+    text-align: center;
+    
+}
+
+.cursor-center {
+    text-align: center;
+    
+ }
+
+.text:hover {
+    transform: scale(1.02);
+}
+
+.blank {
+    color: #ffffff;
+    font-size: 2.5vh;
+    background: transparent;
+    /* border: 0;
+    border-bottom: 0.1px solid #ffffff; */
+    border: 1px solid #ffffff;
+    margin: 0;
+    padding: 5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.btn-padding {
+    padding: 5vh;
+    text-align: center;
+}
+
+.submit {
+    border: 0;
+    padding: 10px 26px;
+    font-size: 2vh;
+    align-items: center;
+    font-family: CenSchoolBook-bold;
+    font-weight: 700;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 24px -2px rgba(11, 47, 138, 0.6);
+    letter-spacing: 0.1em;
+}
+
+.submit:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width:1400px) {
+
+    .formMain{
+        border-radius: 30px;
+        width: 54%;
+    }
+    .formHeading{
+        font-size: 2.5vh;
+        text-align: left;
+    }
+
+    .text{
+        font-size: 2.8vh;
+        text-align: left;
+    }
+
+    .submit{
+        padding: 10px 26px;
+        font-size: 2vh;
+    }
+
+    html {
+        background-size: 150vh;
+    }
+}
+
+
+@media (max-width:1250px) {
+    .groupname, .appid, .topic, .sublink {
+        width: 1em;
+    }
+    .formHeading{
+        font-size: 2vh;
+    }
+
+    .formMain{
+        width: 40%;
+    }
+
+    .text{
+        font-size: 2.5vh;
+        text-align: left;
+    }
+
+    .submit{
+        font-size: 2vh;
+    }
+
+    .btn-padding{
+        padding-bottom: 8vh;
+    }
+
+    html {
+        background-size: 135vh;
+    }
+    
+    
+}
+
+@media (max-width:1100px) {
+    .formMain{
+        width: 50%;
+    }
+
+    html {
+        background-size: 120vh;
+    }
+}
+
+@media (max-width:870px) {
+    .formMain{
+        width: 60%;
+    }
+}
+
+@media (max-width:750px) {
+    html {
+        background-size: 80vh;
+    }
+
+    .formMain {
+        width: 70%;
+    }
+}
+
+@media (max-width:610px) {
+
+    html {
+        background-size: 65vh;
+    }
+
+    .formMain {
+        width: 80%;
+    }
+}
+
+@media (max-width:560px) {
+
+    .formMain {
+        width: 85%;
+    }
+}
+
+@media (max-width:510px) {
+
+    .groupname, .appid, .topic, .sublink {
+        width: 1em;
+    }
+    .formHeading{
+        font-size: 1.8vh;
+    }
+
+    .formMain{
+        width: 40%;
+    }
+
+    .text{
+        font-size: 2.25vh;
+        text-align: left;
+    }
+
+    .submit{
+        font-size: 1.5vh;
+    }
+
+    .formMain {
+        width: 90%;
+    }
+}
+
+@media (max-width:400px) {
+
+    .groupname, .appid, .topic, .sublink {
+        width: 1em;
+    }
+    .formHeading{
+        font-size: 2vh;
+    }
+
+    .formMain{
+        width: 40%;
+    }
+
+    .text{
+        font-size: 2.5vh;
+        text-align: left;
+    }
+
+    .submit{
+        font-size: 1.75vh;
+    }
+
+    .formMain {
+        width: 90%;
+    }
+}

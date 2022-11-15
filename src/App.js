@@ -12,6 +12,7 @@ import Navbar2 from "./pages/Navbar2";
 import Footer from "./pages/Footer";
 import './pages/navbar.css';
 import './pages/footer.css';
+import './pages/submission.css';
 
 function App() {
   return (
