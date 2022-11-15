@@ -1,4 +1,5 @@
 html, #root, #root>div{
+    height: 100%;
 }
 
 img{
@@ -11,6 +12,7 @@ img{
 body{
     margin: 0;
     background: linear-gradient(164.5deg, #A352BB -9.1%, #132A7C 34.01%, #020C20 86.03%);
+    min-height: 100%;
 }
 
 /* -----------------------------profile-a div styling  --------------------------------------------------------------------------*/
@@ -34,7 +36,6 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .profile-div{
     display: flex;
-    height: 50%;
 }
 
 .profile-a{
@@ -64,7 +65,6 @@ color: #FFFFFF;
 /* ------------------------------------------profile-b div styling---------------------------------------- */
 
 .profile-b{
-    clip-path:margin-box;
     display: flex;
     align-items: center;
     width: 50%;
@@ -80,8 +80,6 @@ letter-spacing: 0.1em;
 color: #FFFFFF;
 margin-bottom: 0px;
 margin-top: 5%;
-width: 80%;
-margin-right: 0% ;
 }
 
 .user-detail-input{
@@ -124,12 +122,12 @@ color: #FFFFFF;
   }
 .profile-edit-button-div{
     display: flex;
-    width: 100%;
-    height: 7%;
+    width: 130%;
+    height: 8.3%;
 }
 
 .profile-edit-button{
-margin-left: 10%;
+margin-left: 5.5%;
 background: #000000;
 border-radius: 18px;
 width: 15%;
@@ -195,44 +193,6 @@ text-align: center;
 color: rgba(24, 255, 255, 0.8);
 }
 
-.rect-left-label{
-font-family: 'Century Schoolbook';
-margin-left: 11%;
-margin-bottom: 18%;
-font-style: normal;
-font-weight: 400;
-font-size: 4rem;
-line-height: 50px;
-align-items: center;
-
-color: rgba(255, 255, 255, 0.8);
-
-}
-
-.rect-right-label{
-font-family: 'Century Schoolbook';
-margin-left: 11%;
-margin-bottom: 18%;
-font-style: normal;
-font-weight: 400;
-font-size: 4rem;
-line-height: 50px;
-align-items: center;
-color: rgba(24, 255, 255, 0.8);
-}
-
-.rect-right-label-member{
-    font-family: 'Century Schoolbook';
-    margin-left: 11%;
-    margin-bottom: 5%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 4rem;
-    line-height: 50px;
-    align-items: center;
-    color: rgba(24, 255, 255, 0.8);
-}
-
 @media screen and (min-width: 990px){
     .heading{
         font-size: 5rem;
@@ -266,61 +226,6 @@ color: rgba(24, 255, 255, 0.8);
     .profile-edit-button{
         border-radius: 8px;
         }
-    
-    .team-div{
-        width: 100%;
-        align-items: center ;
-        display: inline-block;
-        justify-content: center;
-    }
-    .team-a{
-        width: 90%;
-        margin-left: 5%;
-    }
-
-    .team-b{
-        width: 0;
-    }
-
-    .rect-main{
-        width: 100%;
-    }
-    
-    .rect-a{
-        width:100%;
-        position: absolute;
-        z-index: 1;
-}
-    .rect-b{
-        width: 100%;
-        position: absolute;
-        margin-left: 0%;
-        z-index: 9;
-    }
-
-    .rectangle{
-        width: 100%;
-           
-    }
-
-    .rect-heading{
-        font-size: 1.5rem;
-    }
-
-    .rect-left-label{
-        width: 100%;
-        font-size: 1.5rem;
-    }
-
-    .rect-right-label{
-        margin-left: 0;
-        font-size: 1.5rem;
-    }
-
-    .rect-right-label-member{
-        margin-left: 0;
-        font-size: 1.5rem;
-    }
 }
 
 @media screen and (max-width: 820px){
