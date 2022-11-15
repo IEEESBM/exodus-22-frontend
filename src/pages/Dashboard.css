@@ -167,7 +167,8 @@ background: #000000;
 box-shadow: 1px 1px 20px rgba(24, 255, 255, 0.5);
 border-radius: 15px;
 margin: 5% auto;
-width:80%;  
+width:80%;
+margin-bottom: 3.5%;
 }
 
 .rect-main{
@@ -188,7 +189,7 @@ width:80%;
 width: 100%;
 font-style: normal;
 font-weight: 400;
-font-size: 2rem;
+font-size: 1.8rem;
 line-height: 50px;
 text-align: center;
 
@@ -198,10 +199,10 @@ color: rgba(24, 255, 255, 0.8);
 .rect-left-label{
 font-family: 'Century Schoolbook';
 margin-left: 11%;
-margin-bottom: 8%;
+margin-bottom: 7%;
 font-style: normal;
 font-weight: 400;
-font-size:1.8rem;
+font-size:1.6rem;
 line-height: 50px;
 align-items: center;
 
@@ -212,10 +213,10 @@ color: rgba(255, 255, 255, 0.8);
 .rect-right-label{
 font-family: 'Century Schoolbook';
 margin-left: 11%;
-margin-bottom: 8%;
+margin-bottom: 7%;
 font-style: normal;
 font-weight: 400;
-font-size: 1.8rem;
+font-size: 1.6rem;
 line-height: 50px;
 align-items: center;
 color: rgba(24, 255, 255, 0.8);
@@ -227,7 +228,7 @@ margin-left: 11%;
 margin-bottom: 0px;
 font-style: normal;
 font-weight: 400;
-font-size: 1.8rem;
+font-size: 1.6rem;
 line-height: 50px;
 align-items: center;
 color: rgba(24, 255, 255, 0.8);
@@ -242,12 +243,13 @@ color: rgba(24, 255, 255, 0.8);
 }
 
 .team-edit-button{
+    width: 18%;
     padding: 1%;
     margin:3%;
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 0%;
     position: relative;
-    left: 22%;
+    left: 33.5%;
 background: rgba(23, 33, 113, 0.7);
 border-radius: 15px;
 border: none;
@@ -259,10 +261,10 @@ border: none;
 }
 
 .team-edit-button-text{
-font-size: 1rem;
+font-size: 1.1rem;
 line-height: 31px;
 text-align: center;
-
+padding: 1%;
 color: #08B3E3;
 }
 
