@@ -9,9 +9,7 @@
     position: absolute; 
     width: 100%;
     height: 100%;
-    background-image: url("../Images/bg.svg"),
-    linear-gradient(136.06deg, #9D4FB3 -12.44%, 
-    #102670 39.32%, #020C20 88.35%);   
+    background-image: url("../Images/bg.svg"),linear-gradient(136.06deg, #9D4FB3 -12.44%, #102670 39.32%, #020C20 88.35%);  
     background-repeat: no-repeat;
     background-size: cover; 
 
@@ -21,7 +19,7 @@
     font-family: 'Century Schoolbook';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.6rem;
+    font-size: 3.2rem;
     line-height: 111%;
     display: block;
     align-items: center;
@@ -29,7 +27,7 @@
     color: #FFFFFF;
     width: 30%;
     margin-left: 35%;
-    margin-top: 6%;
+    margin-top: 5%;
     text-align: center;
     min-height: 30%;
 } 
@@ -47,7 +45,7 @@
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 32%;
+    width: 30%;
     
 
 }
@@ -107,7 +105,7 @@ color: #CBE9FF;
 .box input[type="submit"], .box button[type="submit"], a.button {
 font-family: 'Century Schoolbook';
 margin: auto;
-padding: 5%;
+padding: 2.7%;
     
 
 font-weight: 700;
@@ -121,7 +119,6 @@ mix-blend-mode: normal;
 border: 4px solid #CBE9FF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
-
 width:40%;
 justify-content: center;
 
