@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import ForgetPassword from "./pages/ForgetPassword";
 import Signup from "./pages/Signup";
 import Timeline from "./pages/Timeline";
 import Faq from "./pages/Faq";
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/forgetpassword" element={<ForgetPassword />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/timeline" element={<Timeline />} />
         <Route path="/faq" element={<Faq />} />

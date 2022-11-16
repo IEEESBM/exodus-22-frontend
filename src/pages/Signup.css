@@ -9,6 +9,7 @@
     background-image: url("../Images/bg.svg"),linear-gradient(136.06deg, #9D4FB3 -12.44%, #102670 39.32%, #020C20 88.35%);  
     background-repeat: no-repeat;
     background-size: cover; 
+    justify-content: center;
 
 }
 
@@ -17,7 +18,7 @@
     font-family: 'Century Schoolbook';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.2rem;
+    font-size: 3.5rem;
     line-height: 111%;
     display: block;
     align-items: center;
@@ -25,7 +26,7 @@
     color: #FFFFFF;
     width: 30%;
     margin-left: 35%;
-    margin-top: 5%;
+    margin-top: 6%;
     text-align: center;
     min-height: 5%;
 } 
@@ -41,7 +42,7 @@
     margin: auto auto;
     padding: 3.104%;
     position: absolute;
-    top:55%;
+    top:60%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 33%;
@@ -142,20 +143,20 @@ justify-content: center;
         border: 4px solid #FFFFFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
-        margin: auto auto;
+        top:55%;
         padding: 9.104%;
         position: absolute;
        
         width: 90%;
         height: 78%;
-       
+       margin-bottom: 20%;
     
     }
     .sign-t{
         font-family: 'Century Schoolbook';
     font-style: normal;
     font-weight: 700;
-    font-size: 2.7rem;
+    font-size: 3rem;
     line-height: 111%;
     display: block;
     align-items: center;
@@ -163,7 +164,7 @@ justify-content: center;
     color: #FFFFFF;
     width: 30%;
     margin-left: 30%;
-    margin-top: 16%;
+    margin-top: 8%;
     text-align: center;
     min-height: 30%;
 
@@ -186,6 +187,7 @@ justify-content: center;
     border: 4px solid #CBE9FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
+    line-height: 85%;
     width:60%;
     justify-content: center;
 
