@@ -247,6 +247,7 @@ font-size: 1.8rem;
 line-height: 50px;
 align-items: center;
 color: rgba(24, 255, 255, 0.8);
+background: transparent;
 }
 
 .rect-right-label-member{
@@ -259,6 +260,7 @@ font-size: 1.8rem;
 line-height: 50px;
 align-items: center;
 color: rgba(24, 255, 255, 0.8);
+background: transparent;
 }
 
 .team-picture{
@@ -360,6 +362,14 @@ margin-bottom: 3%;
     font-style: normal;
     margin-top: -2%;
     color: rgba(24, 255, 255, 0.8);
+}
+
+.code-img{
+    width: 20%;
+    position: relative;
+    left: 13%;
+    margin-top: -2%;
+    display: none;
 }
 
 @media screen and (min-width: 990px){
