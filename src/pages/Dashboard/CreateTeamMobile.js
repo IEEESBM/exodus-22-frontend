@@ -8,18 +8,18 @@ const CreateTeamMobile = () => {
     </div>
        <div className="mob-team">
        <p className='mobile-rect-label'>Team Name:</p>
-       <input className='rect-mobile-label'/>
+       <input className='create-rect-mobile-label'/>
             
             <p className='mobile-rect-label'>Topic:</p>
-            <input className='rect-mobile-label'/>
+            <input className='create-rect-mobile-label'/>
             <p className='mobile-rect-label'>No. of Teammates :</p>
-            <input className='rect-mobile-label'/>
+            <input className='create-rect-mobile-label'/>
             <p className='mobile-rect-label'>Team Code:</p>
-            <p className='rect-mobile-label'>UP78</p>
+            <p className='create-rect-mobile-label'>UP78</p>
     
        </div>
-            
-          <button className="team-edit-button"><span className="team-edit-button-text">SAVE</span></button>
+        
+          <button className="team-edit-button" style={{marginTop:'-10%'}}><span className="team-edit-button-text">SAVE</span></button>
           <img src={teamImage} alt="team-pic" className="create-team-pic-mobile"/>
         </div>
   )

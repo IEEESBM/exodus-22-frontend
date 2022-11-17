@@ -4,8 +4,8 @@ import enterCode from './entercode.svg'
 const UserProfile = () => {
   return (
     <div className="profile-a">
-        <h1 className='heading'>User Dashboard</h1>
-        <img className= "profile-picture" src={userImage} alt="profile-pic"/>
+        <h1 className='dash-heading'>User Dashboard</h1>
+        <img className= "profile-picture pro-img" src={userImage} alt="profile-pic"/>
         <p className='username'>Alex Cooper</p>
         <div>
         <p className="no-team-text">Currently, you're not part of a team.</p>

@@ -20,7 +20,7 @@ const CreateTeam = () => {
             <input className='rect-right-label'/>
           </div>
           </div>
-          <button className="create-team-edit-button"><span className="team-edit-button-text">SAVE</span></button>
+          <button className="team-edit-button" style={{marginLeft:'15%'}}><span className="team-edit-button-text">SAVE</span></button>
         </div>
       </div>
       <div className='team-b'><img className= "team-picture" src={teamImage} alt="profile-pic"/></div>

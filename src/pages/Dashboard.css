@@ -2,7 +2,7 @@ html, #root, #root>div{
     min-height: 100%;
 }
 
-img{
+.pro-img{
     width: 30%;
     display: block;
     margin-left: auto;
@@ -17,12 +17,12 @@ body{
 
 /* -----------------------------profile-a div styling  --------------------------------------------------------------------------*/
 
-.heading{
+.dash-heading{
 margin-top:15%;
 font-family: 'Century Schoolbook';
 font-style: normal;
 font-weight: 400;
-font-size: 2.5rem;
+font-size: 4rem;
 width: 100%;
 margin-left: auto;
 margin-right: auto;
@@ -285,6 +285,20 @@ border: none;
 margin-bottom: 3.5%;
 }
 
+.create-team-edit-button{
+    padding: 1%;
+    margin:3% 0%;
+    display: inline-block;
+    margin-left: 2%;
+    position: relative;
+    left: 25%;
+    width: 20%;
+background: rgba(23, 33, 113, 0.7);
+border-radius: 15px;
+border: none;
+margin-bottom: 3.5%;
+}
+
 
 .team-edit-button:hover{
     box-shadow: 1px 1px 20px rgba(24, 255, 255, 0.5);
@@ -350,9 +364,21 @@ margin-bottom: 3%;
     display: block;
     font-family: 'Century Schoolbook';
     font-style: normal;
-    margin-top: -2%;
+    margin-top: -1.5%;
     color: rgba(24, 255, 255, 0.8);
     margin-bottom: 15%;
+}
+
+.create-rect-mobile-label{
+    width: 100%;
+    background: transparent;
+    font-size: 1.4rem;
+    display: block;
+    font-family: 'Century Schoolbook';
+    font-style: normal;
+    margin-top: -1.5%;
+    color: rgba(24, 255, 255, 0.8);
+    margin-bottom: 8%;
 }
 
 .create-team-pic-mobile{
@@ -399,12 +425,12 @@ margin-bottom: 3%;
 }
 
 @media screen and (min-width: 990px){
-    .heading{
+    .dash-heading{
         font-size: 4rem;
     }
 }
 @media screen and (max-width: 820px){
-    .heading{
+    .dash-heading{
         margin-top: 5%;
         font-size: 3rem;
     }
