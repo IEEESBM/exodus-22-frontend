@@ -8,8 +8,9 @@ const UserProfile = () => {
         <img className= "profile-picture" src={userImage} alt="profile-pic"/>
         <p className='username'>Alex Cooper</p>
         <div>
-        <button className="mobile-profile-edit-button"><span className="mobile-profile-edit-button-text">My Team</span></button>
-      <button className="mobile-profile-edit-button"><span className="mobile-profile-edit-button-text">My Details</span></button>
+        <p className="no-team-text">Currently, you're not part of a team.</p>
+        <button className="no-team-edit-button"><span className="no-team-edit-button-text">Create a Team</span></button>
+        <button className="no-team-edit-button"><span className="no-team-edit-button-text">Enter Team code</span></button>
         </div>
       </div>
   )

@@ -45,12 +45,12 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .profile-picture{
     position: relative;
-    margin-top:0;
-    top: -8%;
+    margin-top:8%;
+    top: 0%;
 }
 
 .username{
-    margin-top: -3%;
+    margin-top: 3%;
     font-family: 'Century Schoolbook';
 font-style: normal;
 font-weight: 400;
@@ -64,6 +64,30 @@ margin-left: auto;
 color: #FFFFFF;
 }
 
+.no-team-edit-button{
+    margin: 3% 3%;
+    background: #000000;
+    border-radius: 12px;
+    width: 21%;
+    border: none;
+    padding: .5% 4%;
+}
+    
+.no-team-text{
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.no-team-edit-button:hover{
+    box-shadow: 1px 1px 15px rgba(24, 255, 255, 0.5);
+}
+
+.no-team-edit-button-text{
+    font-size: 1.1em;
+    text-align: center;
+    
+    color: rgba(24, 255, 255, 0.8);
+}
 /* ------------------------------------------profile-b div styling---------------------------------------- */
 
 .profile-b{
@@ -121,7 +145,9 @@ color: #FFFFFF;
     border: 0.5px solid #FFFFFF;
     backdrop-filter: blur(3px);
     margin-bottom: 7%;
-  }
+}
+
+
 .profile-edit-button-div{
     display: flex;
     width: 80%;
@@ -147,6 +173,7 @@ text-align: center;
 color: rgba(24, 255, 255, 0.8);
 }
 
+
 .team-div{
     display: flex;
     height: 100%;
@@ -166,9 +193,9 @@ position: inherit;
 background: #000000;
 box-shadow: 1px 1px 20px rgba(24, 255, 255, 0.5);
 border-radius: 15px;
-margin: 5% auto;
-width:80%;
-margin-bottom: 3.5%;
+margin: 2% auto;
+width:80%; 
+margin-bottom: 3%; 
 }
 
 .rect-main{
@@ -189,7 +216,7 @@ margin-bottom: 3.5%;
 width: 100%;
 font-style: normal;
 font-weight: 400;
-font-size: 1.8rem;
+font-size: 2rem;
 line-height: 50px;
 text-align: center;
 
@@ -199,10 +226,10 @@ color: rgba(24, 255, 255, 0.8);
 .rect-left-label{
 font-family: 'Century Schoolbook';
 margin-left: 11%;
-margin-bottom: 7%;
+margin-bottom: 8%;
 font-style: normal;
 font-weight: 400;
-font-size:1.6rem;
+font-size:1.8rem;
 line-height: 50px;
 align-items: center;
 
@@ -213,10 +240,10 @@ color: rgba(255, 255, 255, 0.8);
 .rect-right-label{
 font-family: 'Century Schoolbook';
 margin-left: 11%;
-margin-bottom: 7%;
+margin-bottom: 8%;
 font-style: normal;
 font-weight: 400;
-font-size: 1.6rem;
+font-size: 1.8rem;
 line-height: 50px;
 align-items: center;
 color: rgba(24, 255, 255, 0.8);
@@ -228,7 +255,7 @@ margin-left: 11%;
 margin-bottom: 0px;
 font-style: normal;
 font-weight: 400;
-font-size: 1.6rem;
+font-size: 1.8rem;
 line-height: 50px;
 align-items: center;
 color: rgba(24, 255, 255, 0.8);
@@ -243,16 +270,17 @@ color: rgba(24, 255, 255, 0.8);
 }
 
 .team-edit-button{
-    width: 18%;
     padding: 1%;
-    margin:3%;
+    margin:3% 0%;
     display: inline-block;
-    margin-left: 0%;
+    margin-left: 2%;
     position: relative;
-    left: 33.5%;
+    left: 25%;
+    width: 20%;
 background: rgba(23, 33, 113, 0.7);
 border-radius: 15px;
 border: none;
+margin-bottom: 3.5%;
 }
 
 
@@ -261,44 +289,77 @@ border: none;
 }
 
 .team-edit-button-text{
-font-size: 1.1rem;
+font-size: 1.2rem;
 line-height: 31px;
 text-align: center;
-padding: 1%;
 color: #08B3E3;
 }
 
-.mobile-profile-edit-button{
-    display: block;
-    margin: 2% auto;
-    margin-bottom: 8%;
+.rectangle-mobile{
+    position: inherit;
 background: #000000;
-border-radius: 12px;
-width: 25%;
-border: none;
-padding: 2%;
+box-shadow: 1px 1px 20px rgba(24, 255, 255, 0.5);
+border-radius: 15px;
+margin: 2% auto;
+width:80%; 
+margin-bottom: 3%; 
+    display: none;
 }
 
-.mobile-profile-edit-button-text{
-    font-size: 1rem;
-text-align: center;
-color: rgba(24, 255, 255, 0.8);
+.mobile-rect-heading{
+    padding-top: 10%;
+    padding-left: 8%;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(24, 255, 255, 0.8);
+    font-size: 1.8rem;
 }
 
-.mobile-username{
+.team-pic-mobile{
+    margin-left: auto;
+    display: inline-block;
+    width: 40%;
+    margin-top: 5%;
+}
+
+.mob-team{
+    margin-top: -3%;
+    padding-left: 8%;
+}
+
+.mobile-rect-label{
+    width: 100%;
+    font-size: 1.4rem;
+    display: block;
     font-family: 'Century Schoolbook';
-font-style: normal;
-font-size: 1.8rem;
-line-height: 111%;
-/* identical to box height, or 39px */  
-text-align: center;
-width: 100%;
-display: block;
-letter-spacing: -0.0em;
-margin-left: auto;
-margin-right: auto;
-color: #FFFFFF;
-margin-top: 2%;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.rect-mobile-label{
+    width: 100%;
+    font-size: 1.4rem;
+    display: block;
+    font-family: 'Century Schoolbook';
+    font-style: normal;
+    margin-top: -2%;
+    color: rgba(24, 255, 255, 0.8);
+    margin-bottom: 15%;
+}
+
+.rect-mobile-label-member{
+    width: 100%;
+    font-size: 1.4rem;
+    display: block;
+    font-family: 'Century Schoolbook';
+    font-style: normal;
+    margin-top: -2%;
+    color: rgba(24, 255, 255, 0.8);
 }
 
 @media screen and (min-width: 990px){
@@ -306,54 +367,43 @@ margin-top: 2%;
         font-size: 4rem;
     }
 }
-
-@media screen and (min-width: 820px){
-    .mobile-profile-edit-button{
-        display: none;
-    }
-
-    .mobile-username{
-        display: none;
-    }
-    
-}
-
 @media screen and (max-width: 820px){
     .heading{
-        font-size: 2rem;
-    }
-
-    .profile-picture{
-        width: 50%;
+        margin-top: 5%;
+        font-size: 3rem;
     }
 
     .username{
-        margin-top: 8%;
-        font-size: 1.4rem;
-        margin-bottom: 2%;
+        margin-top: 7%;
+        font-size: 1.8rem;
     }
 
-    .profile-b{
-        display: block;
+    .no-team-edit-button{
+        width: 33%;
     }
 
     .profile-b-form{
-        margin-left: 4%;
+        margin-left: 0%;
     }
 
     .user-detail-input{
-        font-size: .8rem;
-        font-family: 'Century Schoolbook';
-font-style: normal;
-font-weight: 700;
-letter-spacing: 0.1em;
-
-color: #08B3E3;
+        color: #08B3E3;
+        font-size: .9rem;
     }
 
     .user-detail-label{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+    }
 
+    .user-detail-line{
+        width: 70%;
+    }
+
+    .profile-edit-button-div{
+        position: relative;
+        right:8%;
+        width: 100%;
+        margin-top: 10%;
     }
 
     .profile-edit-button-text{
@@ -361,8 +411,27 @@ color: #08B3E3;
     }
 
     .profile-edit-button{
+        margin: 1.5%;
+        width: 40%;
         border-radius: 8px;
-        }
+        padding: 2.5% 0;
+    }
+
+    .team-edit-button{
+        margin-top: 15%;
+        width: 35%;
+        left: 12%;
+        margin-bottom: 8%;
+    }
+
+    .rectangle-mobile{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .team-edit-button-text{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 820px){
@@ -377,19 +446,19 @@ color: #08B3E3;
 
     .profile-picture{
         margin-top: 10%;
+        width: 65%;
     }
 
     .profile-b{
         width: 100%;
-        margin: 10% 20%;
+        padding: 2%;
+        margin: 10% 0%;
         overflow: hidden;
-        margin-bottom: 0;
-        margin-top: 0;
     }
 
     .profile-b-form{
-        margin-top: 0%;
-        margin-bottom: 5%;
+        margin-left: 23%;
+        margin-top: 10%;
     }
 
     .team-div{
@@ -401,12 +470,9 @@ color: #08B3E3;
     .team-b{
         display: none;
     }
-    .profile-edit-button{
-        padding: 2%;
-        width: 35%;
-        margin-right: 5%;
-        margin-left: 0%;
-        margin-top: 8%;
+
+    .rectangle-mobile{
+        display: block;
     }
 }
 

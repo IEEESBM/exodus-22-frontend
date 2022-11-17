@@ -7,7 +7,7 @@ import './Home.css';
 function Home() {
   return (
     <div className="home-page">
-      <div className="logo">
+      <div className="ex-logo">
         <img className="logo-pic" src={user2} alt="logo"></img>
       </div>
 

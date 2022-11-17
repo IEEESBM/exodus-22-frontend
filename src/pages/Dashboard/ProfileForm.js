@@ -1,9 +1,9 @@
 import React from 'react'
 
-const DashboardDetails = () => {
+const ProfileForm = () => {
   return (
     <div className="profile-b">
-    <form className='profile-b-form'> 
+      <form className='profile-b-form'>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
       <p className="user-detail-label">Name</p>
       <input type="text" className="user-detail-input" spellCheck="false"/>
@@ -18,12 +18,12 @@ const DashboardDetails = () => {
       <input type="password" className="user-detail-input" spellCheck="false"/>
       <div className="user-detail-line"></div>
       <div className="profile-edit-button-div">
-        <button className="profile-edit-button"><span className="profile-edit-button-text">Edit</span></button>
-        <button className="profile-edit-button"><span className="profile-edit-button-text">Save</span></button>
+        <button className="profile-edit-button"><span className="profile-edit-button-text">EDIT</span></button>
+        <button className="profile-edit-button"><span className="profile-edit-button-text">SAVE</span></button>
       </div>
       </form>
-      </div>
+    </div>
   )
 }
 
-export default DashboardDetails
+export default ProfileForm
