@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import ForgetPassword from "./pages/ForgetPassword";
+import ForgetPassword from "./pages/ForgetPassword";
 import Signup from "./pages/Signup";
 import Timeline from "./pages/Timeline";
 import Faq from "./pages/Faq";
@@ -14,6 +15,7 @@ import Footer from "./pages/Footer";
 import Dashboard from "./pages/Dashboard";
 import './pages/navbar.css';
 import './pages/footer.css';
+import './pages/submission.css';
 import './pages/Dashboard.css'
 import './pages/submission.css';
 
@@ -23,6 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/forgetpassword" element={<ForgetPassword />} />
         <Route path="/forgetpassword" element={<ForgetPassword />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/timeline" element={<Timeline />} />
