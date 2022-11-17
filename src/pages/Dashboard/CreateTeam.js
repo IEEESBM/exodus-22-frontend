@@ -1,11 +1,11 @@
 import React from 'react'
-import teamImage from './dashboard_team.svg'
+import teamImage from './createTeam.svg'
 const CreateTeam = () => {
   return (
     <div className="team-div">
       <div className='team-a'>
         <div className='rectangle'>
-        <h3 className='rect-heading'>My Team</h3>
+        <h3 className='rect-heading'>Create a Team</h3>
         <div className='rect-main'>
           <div className='rectangle-left'>  
             <p className='rect-left-label'>Team Name:</p>
@@ -20,8 +20,7 @@ const CreateTeam = () => {
             <input className='rect-right-label'/>
           </div>
           </div>
-          <button className="team-edit-button"><span className="team-edit-button-text">Delete Team</span></button>
-            <button className="team-edit-button"><span className="team-edit-button-text">Leave Team</span></button>
+          <button className="create-team-edit-button"><span className="team-edit-button-text">SAVE</span></button>
         </div>
       </div>
       <div className='team-b'><img className= "team-picture" src={teamImage} alt="profile-pic"/></div>

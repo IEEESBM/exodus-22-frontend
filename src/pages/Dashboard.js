@@ -5,6 +5,7 @@ import MyTeamMobile from './Dashboard/MyTeamMobile'
 import MyTeam from './Dashboard/MyTeam'
 import ProfileForm from './Dashboard/ProfileForm'
 import CreateTeam from './Dashboard/CreateTeam'
+import CreateTeamMobile from './Dashboard/CreateTeamMobile'
 function Dashboard() {
   return (
     <div>
@@ -20,6 +21,7 @@ function Dashboard() {
     <MyTeam/>
     <MyTeamMobile/>
     <CreateTeam/>
+    <CreateTeamMobile/>
     </section>
     </div>
     </div>

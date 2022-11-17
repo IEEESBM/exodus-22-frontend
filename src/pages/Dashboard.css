@@ -345,6 +345,7 @@ margin-bottom: 3%;
 
 .rect-mobile-label{
     width: 100%;
+    background: transparent;
     font-size: 1.4rem;
     display: block;
     font-family: 'Century Schoolbook';
@@ -352,6 +353,14 @@ margin-bottom: 3%;
     margin-top: -2%;
     color: rgba(24, 255, 255, 0.8);
     margin-bottom: 15%;
+}
+
+.create-team-pic-mobile{
+    margin-left: 17%;
+    display: inline-block;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .rect-mobile-label-member{
@@ -370,6 +379,23 @@ margin-bottom: 3%;
     left: 13%;
     margin-top: -2%;
     display: none;
+}
+
+.create-team-edit-button{
+    padding: 1%;
+    margin:3% 0%;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    background: rgba(23, 33, 113, 0.7);
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 3.5%;
+    margin-left: 40%;
+}
+
+.create-team-edit-button:hover{
+    box-shadow: 1px 1px 20px rgba(24, 255, 255, 0.5);
 }
 
 @media screen and (min-width: 990px){
@@ -464,6 +490,7 @@ margin-bottom: 3%;
         padding: 2%;
         margin: 10% 0%;
         overflow: hidden;
+        margin-top: 0;
     }
 
     .profile-b-form{
