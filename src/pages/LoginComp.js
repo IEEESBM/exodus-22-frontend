@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
+import {}from "react-router";
+import {Link } from "react-router-dom";
 function LoginComp() {
   const [email, setemail] = useState("");
   const [password, setPassword] = useState("");
@@ -15,7 +17,6 @@ function LoginComp() {
       <form action="" onSubmit={submitForm}>
         <div className="emailcomp">
           <label htmlFor="email">Email</label>
-          <br />
 
           <input
             type="text"
@@ -28,7 +29,7 @@ function LoginComp() {
         </div>
 
         <div className="emailcomp">
-          <label htmlFor="password">Password</label> <br />
+          <label htmlFor="password">Password</label> 
           <input
             type="password"
             name="password"
@@ -39,19 +40,19 @@ function LoginComp() {
           />
         </div>
 
-        <a href="#" className="forgot">
-          Forget password?
-        </a>
+        <Link href="#" className="forgot" to="/forgetpassword">
+          Forgot password?
+        </Link>
         <div className="loginbutton">
           <button type="submit">Login</button>
         </div>
-        <a href="#" className="dont">
+        <Link href="#" className="dont" to="/signup">
           <pre>
             {" "}
             Dont have an account yet?<br></br>
-            <i>Sign up!</i>
+            <i> Sign up now!</i>
           </pre>{" "}
-        </a>
+        </Link>
       </form>
     </>
   );
