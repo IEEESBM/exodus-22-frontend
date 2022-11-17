@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import ForgetPassword from "./pages/ForgetPassword";
+import ForgetPassword2 from "./pages/ForgetPassword2";
+import ForgetPassword3 from "./pages/ForgetPassword3";
 import Signup from "./pages/Signup";
 import Timeline from "./pages/Timeline";
 import Faq from "./pages/Faq";
@@ -22,6 +24,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgetpassword" element={<ForgetPassword />} />
+        <Route path="/forgetpassword2" element={<ForgetPassword2 />} />
+        <Route path="/forgetpassword3" element={<ForgetPassword3 />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/timeline" element={<Timeline />} />
         <Route path="/faq" element={<Faq />} />
