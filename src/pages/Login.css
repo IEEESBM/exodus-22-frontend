@@ -94,9 +94,6 @@ color: #CBE9FF;
       linear-gradient(136.06deg, #9d4fb3 -12.44%, #102670 39.32%, #020c20 88.35%);
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
-  .login-page {
     width: 100vw;
     height: 100vh;
     display: flex;

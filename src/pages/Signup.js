@@ -6,9 +6,10 @@ import {Link } from "react-router-dom";
 function Signup() {
     
     return (
-        <><div className="sign">
-            <div className="sign-t">Signup</div>
-        </div><div>
+        <div className="sign">
+            
+        <div>
+        <div className="sign-t">Signup</div>
                 <main className="box">
                     <form>
                         <div className="inputBox">
@@ -32,7 +33,7 @@ function Signup() {
 
                     </form>
                 </main>
-            </div></>
+            </div></div>
         
     );
 }
