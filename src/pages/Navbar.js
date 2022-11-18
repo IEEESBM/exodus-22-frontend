@@ -34,7 +34,7 @@ const Navbar = () => {
                                 <Link className="nav-link" to="#">Timeline</Link>
                             </li>
                             <li className="nav-item">
-                                <Link type="button" className="nav-link btn btn-outline-dark login-btn" to="#">Login</Link>
+                                <Link type="button" className="nav-link" to="#">Login</Link>
                             </li>
                             <li className="nav-item">
                                 <Link type="button" className="nav-link btn btn-outline-dark reg-btn" to="#">Register</Link>
