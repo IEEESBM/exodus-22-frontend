@@ -4,7 +4,6 @@ import SingleQuestion from './Question';
 import "./faq.css";
 import Group7 from '../Images/Group7.svg'
 
-
 function Faq() {
   const [questions, setQuestions] = useState(data)
   return (
