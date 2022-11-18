@@ -9,7 +9,7 @@ const Navbar2 = () => {
         <>
             <nav className="navbar navbar-dark navbar-expand-lg">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="#">
+                    <Link className="navbar-brand" to="/">
                         <img src={Logo} alt="Logo" width="60" className="d-inline-block align-text-top" />
                         EXODUS
                     </Link>
@@ -19,25 +19,25 @@ const Navbar2 = () => {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="#">Home</Link>
+                                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">About</Link>
+                                <Link className="nav-link" to="/about">About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">Rules</Link>
+                                <Link className="nav-link" to="/rules">Rules</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">Submission</Link>
+                                <Link className="nav-link" to="/submission">Submission</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">Timeline</Link>
+                                <Link className="nav-link" to="/timeline">Timeline</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">FAQ</Link>
+                                <Link className="nav-link" to="/faq">FAQ</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">Dashboard</Link>
+                                <Link className="nav-link" to="/dashboard">Dashboard</Link>
                             </li>
                             <li className="nav-item">
                                 <Link type="button" className="nav-link btn btn-outline-dark logout-btn" to="#">Logout</Link>
