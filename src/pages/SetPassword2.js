@@ -1,9 +1,9 @@
 import React from 'react';
-import './ForgetPassword3.css';
+import './SetPassword2.css';
 import {}from "react-router";
 import {Link } from "react-router-dom";
 
-function ForgetPassword2() {
+function SetPassword2() {
     
     return (
         <><div className="sign">
@@ -29,4 +29,4 @@ function ForgetPassword2() {
     );
 }
 
-export default ForgetPassword2;
+export default SetPassword2;
