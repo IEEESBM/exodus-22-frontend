@@ -5,7 +5,7 @@
   
   .navbar {
     width: 100wh;
-    height: 6vh;
+    height: auto;
   
     background: rgb(29,35,118) !important;
     mix-blend-mode: normal;
