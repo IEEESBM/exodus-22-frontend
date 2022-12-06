@@ -1,16 +1,33 @@
 import React, { useState } from "react";
 import "./Login.css";
 import {}from "react-router";
-import {Link } from "react-router-dom";
+import {Link ,useNavigate} from "react-router-dom";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  onAuthStateChanged,
+  signOut,
+} from "firebase/auth";
+import { auth } from "../firebase-config";
 function LoginComp() {
   const [email, setemail] = useState("");
   const [password, setPassword] = useState("");
   const [allEntry, setAllEntry] = useState([]);
-  const submitForm = (e) => {
+  const navigate = useNavigate()
+  const submitForm = async (e) => {
     e.preventDefault(); //to stop the auto refresh
-    const newEntry = { email: email, password: password };
+    try {
+      const user = await signInWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+      navigate("/")
+      console.log(user);
 
-    setAllEntry([...allEntry, newEntry]);
+    } catch (error) {
+      alert(error.message);
+    }
   };
   return (
     <>
