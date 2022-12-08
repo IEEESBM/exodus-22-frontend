@@ -20,27 +20,29 @@ import './pages/footer.css';
 import './pages/submission.css';
 import './pages/Dashboard.css'
 import './pages/submission.css';
+import Thankyou from "./pages/Thankyou";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/forgetpassword" element={<ForgetPassword />} />
-        <Route path="/forgetpassword2" element={<ForgetPassword2 />} />
-        <Route path="/setpassword" element={<SetPassword />} />
-        <Route path="/setpassword2" element={<SetPassword2 />} />
-        <Route path="/signup" element={<Signup />} />
+        {/* <Route path="/login" element={<Login />} /> */}
+        {/* <Route path="/forgetpassword" element={<ForgetPassword />} /> */}
+        {/* <Route path="/forgetpassword2" element={<ForgetPassword2 />} /> */}
+        {/* <Route path="/setpassword" element={<SetPassword />} /> */}
+        {/* <Route path="/setpassword2" element={<SetPassword2 />} /> */}
+        {/* <Route path="/signup" element={<Signup />} /> */}
         <Route path="/timeline" element={<Timeline />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/about" element={<About />} />
         <Route path="/rules" element={<Rules />} />
         <Route path="/submission" element={<Submission />} />
-        <Route path="/navbar" element={<Navbar />} />
-        <Route path="/navbar2" element={<Navbar2 />} />
-        <Route path="/footer" element={<Footer />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        {/* <Route path="/navbar" element={<Navbar />} /> */}
+        {/* <Route path="/navbar2" element={<Navbar2 />} /> */}
+        {/* <Route path="/footer" element={<Footer />} /> */}
+        {/* <Route path="/dashboard" element={<Dashboard />} /> */}
+        <Route path="/thankyou" element={<Thankyou />} />
 
       </Routes>
     </BrowserRouter>

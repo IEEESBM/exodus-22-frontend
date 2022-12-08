@@ -4,9 +4,13 @@ import hand from '../Images/hand.svg'
 import pm from '../Images/pm.svg'
 import processor from '../Images/processor.svg'
 import bulb from '../Images/bulb.svg'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 function Rules() {
   return (
+    <>
+    <Navbar></Navbar>
     <div className='bodyr'>
       <div className='contentr'>
         <h1 className='headerr'>
@@ -52,6 +56,8 @@ function Rules() {
       </div>
 
     </div>
+    <Footer></Footer>
+    </>
 
   )
 }

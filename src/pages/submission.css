@@ -1,208 +1,346 @@
 @font-face {
-    font-family: "CenSchoolBook-regular";
-    src: url("/src/assets/century/CenturySchoolbookRegularfont.ttf");
+  font-family: "CenSchoolBook-regular";
+  src: url("/src/assets/century/CenturySchoolbookRegularfont.ttf");
 }
 
 @font-face {
-    font-family: "CenSchoolBook-bold";
-    src: url("/src/assets/century/CenturySchoolbookBold.ttf");
+  font-family: "CenSchoolBook-bold";
+  src: url("/src/assets/century/CenturySchoolbookBold.ttf");
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.thanks{
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 40vh;
+    font-size: 3vw;
+}
+
+.col {
+  display: block;
+}
+
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c !important;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px;
+  padding: 10px 0px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.btn1 {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #5bb600 !important;
+    border-radius: 0.6em;
+    color: #5bb600;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  .btn1:hover,
+  .btn1:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+.del {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.del:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+
+.add {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.add:hover {
+  box-shadow: 0 0 40px 40px #5bb600 inset;
+}
+
+.btn2 {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #3498db !important;
+    border-radius: 0.6em;
+    color: #3498db;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    /* margin: 10px; */
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  .btn2:hover,
+  .btn2:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+.sbmt {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.sbmt:hover {
+  box-shadow: 0 0 40px 40px #3498db inset;
 }
 
 .formall * {
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: .1s ease-in-out;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
 }
 
 .formall {
-    scroll-behavior: smooth;
-    background-image: url("../Images/bg-submissions.svg"),linear-gradient(136.06deg, #9D4FB3 -12.44%, #102670 39.32%, #020C20 88.35%);  
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:100vh;
-    padding: 1.5vh;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: .1s ease-in-out;
+  scroll-behavior: smooth;
+  background-image: url("../Images/bg-submissions.svg"),
+    linear-gradient(136.06deg, #9d4fb3 -12.44%, #102670 39.32%, #020c20 88.35%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  padding: 1.5vh;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
+  padding-bottom: 10vw;
 }
 
 .formMain {
-    box-sizing: border-box;
-    display: flex;
-    padding: 1em;
-    margin: auto;
-    width: 50%;
-    background: rgba(49, 69, 136, 0.4);
-    color: #ffffff;
-    /* mix-blend-mode: lighten; */
-    font-family: CenSchoolBook-bold;
-    font-weight: 700;
-    justify-content: center;
+  box-sizing: border-box;
+  display: flex;
+  padding: 1em;
+  margin: auto;
+  width: 50%;
+  background: rgba(49, 69, 136, 0.4);
+  color: #ffffff;
+  /* mix-blend-mode: lighten; */
+  font-family: CenSchoolBook-bold;
+  font-weight: 700;
+  justify-content: center;
 }
 
 .headingSub {
-    font-size: 6vh;
-    padding: 2.5vh;
-    padding-bottom: 1vh;
+  font-size: 6vh;
+  padding: 2.5vh;
+  padding-bottom: 1vh;
 }
 
 .formHeading {
-    font-weight: 700;
-    font-family: CenSchoolBook-bold;
-    text-align: center;
+  font-weight: 700;
+  font-family: CenSchoolBook-bold;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: white;
 }
 
-
 .text {
-    padding: 2.25vh;
-    font-size: 3.2vh;
-    text-align: center;
-    
+  padding: 2.25vh;
+  font-size: 3.2vh;
+  text-align: center;
 }
 
 .cursor-center {
-    text-align: center;
-    
- }
+  text-align: center;
+}
 
 .text:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .blank {
-    color: #ffffff;
-    font-size: 2.5vh;
-    background: transparent;
-    /* border: 0;
+  color: #ffffff;
+  font-size: 2.5vh;
+  background: transparent;
+  /* border: 0;
     border-bottom: 0.1px solid #ffffff; */
-    border: 1px solid #ffffff;
-    margin: 0;
-    padding: none;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
+  border: 1px solid #ffffff;
+  margin: 0;
+  padding: none;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
 }
 
 .btn-padding {
-    padding: 5vh;
-    text-align: center;
+  padding: 5vh;
+  text-align: center;
 }
 
 .submit {
-    border: 0;
-    padding: 8px 44px;
-    font-size: 2vh;
-    align-items: center;
-    font-family: CenSchoolBook-bold;
-    font-weight: 700;
-    background-color: #ffffff;
-    border-radius: 16px;
-    box-shadow: 0px 8px 24px -2px rgba(11, 47, 138, 0.6);
-    letter-spacing: 0.1em;
+  border: 0;
+  padding: 8px 44px;
+  font-size: 2vh;
+  align-items: center;
+  font-family: CenSchoolBook-bold;
+  font-weight: 700;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 8px 24px -2px rgba(11, 47, 138, 0.6);
+  letter-spacing: 0.1em;
 }
 
 .submit:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
+.btn2{
+    margin-top: 20px;
+    margin-left: 1vw;
+  }
+
 @media only screen and (max-width: 1400px) {
+  .formMain {
+    border-radius: 30px;
+    width: 54%;
+  }
 
-    .formMain{
-        border-radius: 30px;
-        width: 54%;
-    }
+  .headingSub {
+    font-size: 4vh;
+  }
 
-    .headingSub{
-        font-size: 4vh;
-    }
+  .text {
+    font-size: 2.5vh;
+    text-align: left;
+  }
 
-    .text {
-        font-size: 2.5vh;
-        text-align: left;
-    }
-
-    .submit {
-        padding: 10px 26px;
-        font-size: 1.8vh;
-    }
+  .submit {
+    padding: 10px 26px;
+    font-size: 1.8vh;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
+  .formMain {
+    width: 46%;
+    height: 80%;
+  }
 
-    .formMain{
-        width: 46%;
-        height: 80%;
-    }
+  .groupname,
+  .appid,
+  .topic,
+  .sublink {
+    width: 1vh;
+  }
 
-    .groupname, .appid, .topic, .sublink {
-        width: 1vh;
-    }
+  .headingSub {
+    font-size: 4vh;
+  }
 
-    .headingSub{
-        font-size: 4vh;
-    }
+  .text {
+    font-size: 2.25vh;
+  }
 
-    .text {
-        font-size: 2.25vh;
-    }
-
-    .submit {
-        padding: 10px 24px;
-        font-size: 1.8vh;
-    }
-    
+  .submit {
+    padding: 10px 24px;
+    font-size: 1.8vh;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
+  .formMain {
+    width: 58%;
+    height: 80%;
+  }
 
-    .formMain{
-        width: 58%;
-        height: 80%;
-    }
+  .headingSub {
+    font-size: 3.75vh;
+  }
 
-    .headingSub{
-        font-size: 3.75vh;
-    }
+  .submit {
+    padding: 8px 20px;
+  }
 
-    .submit {
-        padding: 8px 20px;
-    }
-
-    .btn-padding {
-        padding: 2.5vh;
-    }
+  .btn-padding {
+    padding: 2.5vh;
+  }
 }
 
 @media only screen and (max-width: 870px) {
+  .formMain {
+    width: 90%;
+  }
 
-    .formMain{
-        width: 90%;
-    }
+  .groupname{
+    display: block;
+    width: 100%;
+    margin-left: -3vw;
+    margin-top: 10px;
+    height: 40px;
+  }
 
-    .submit {
-        padding: 8px 20px;
-        font-size: 1.5vh;
-    }
+  .lnk{
+    margin-left: 3vw;
+  }
+
+  .submit {
+    padding: 8px 20px;
+    font-size: 1.5vw;
+  }
+
+  .btn2{
+    margin-top: 20px;
+    margin-left: 2vw;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+  .headingSub {
+    font-size: 3.25vh;
+  }
 
+  .text {
+    font-size: 2vh;
+  }
 
-    .headingSub{
-        font-size: 3.25vh;
-    }
-
-    .text {
-        font-size: 2vh;
-    }
-
-    .submit {
-        padding: 10px 24px;
-        font-size: 1.8vh;
-    }
-    
+  .submit {
+    padding: 10px 24px;
+    font-size: 1.8vh;
+  }
 }
 
 /*

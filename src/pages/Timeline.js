@@ -4,12 +4,18 @@ import user2 from "../Images/timeline-ver.svg";
 import user3 from "../Images/ufo.svg"
 
 import './Timeline.css';
+import Navbar from './Navbar';
+import Footer from './Footer';
 function Timeline() {
   return (
+    <>
+    <Navbar></Navbar>
     <div className='timeline-body'>
       <h1 id="title">Timeline of the event</h1>
       <Img />
     </div>
+    <Footer></Footer>
+    </>
   )
 }
 
