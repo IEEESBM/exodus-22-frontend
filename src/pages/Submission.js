@@ -34,18 +34,22 @@ function Submission() {
                 details: values.details,
                 link: document.querySelector('.lnkval').value
               }
-
-              axios.post('http://localhost:3010/submit', doc)
-              .then(function (response) {
-                if(response.status === 200){
-                  navigate('/thankyou');
-                }else{
-                  alert('sorry could not submit');
-                }
-              })
-              .catch(function (error) {
-                alert('sorry could not submit');
-              });
+              if (values.details.length < 5 && values.details.length > 0) {
+                axios.post('http://localhost:3010/submit', doc)
+                  .then(function (response) {
+                    if (response.status === 200) {
+                      navigate('/thankyou');
+                    } else {
+                      alert('sorry could not submit');
+                    }
+                  })
+                  .catch(function (error) {
+                    alert('sorry could not submit');
+                  });
+              }
+              else{
+                alert('invalid number of team members');
+              }
 
             }}
           >
@@ -59,7 +63,7 @@ function Submission() {
                           <div className="row" key={index}>
                             <div >
                               <label htmlFor={`details.${index}.name`}
-                              className="groupname text">Name</label>
+                                className="groupname text">Name</label>
                               <Field
                                 name={`details.${index}.name`}
                                 type="text"
@@ -74,7 +78,7 @@ function Submission() {
                             </div>
                             <div >
                               <label htmlFor={`details.${index}.regNo`}
-                              className="groupname text">Registration No.</label>
+                                className="groupname text">Registration No.</label>
                               <Field
                                 name={`details.${index}.regNo`}
                                 type="number"
@@ -88,7 +92,7 @@ function Submission() {
                             </div>
                             <div >
                               <label htmlFor={`details.${index}.phone`}
-                              className="groupname text">Phone No.</label>
+                                className="groupname text">Phone No.</label>
                               <Field
                                 name={`details.${index}.phone`}
                                 type="number"
