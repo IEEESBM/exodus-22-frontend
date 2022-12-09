@@ -13,15 +13,15 @@ input::-webkit-inner-spin-button {
   display: none;
 }
 
-.thanks{
-    color: white;
-    margin: auto;
-    text-align: center;
-    margin-top: 40vh;
-    font-size: 3vw;
+.thanks {
+  color: white;
+  margin: auto;
+  text-align: center;
+  margin-top: 40vh;
+  font-size: 3vw;
 }
 
-.redirect{
+.redirect {
   color: white;
   margin: auto;
   text-align: center;
@@ -47,6 +47,7 @@ input::-webkit-inner-spin-button {
   font-weight: 400;
   line-height: 1;
   margin: 10px;
+  margin-left: 1vw;
   padding: 10px 0px;
   text-decoration: none;
   text-align: center;
@@ -61,31 +62,32 @@ input::-webkit-inner-spin-button {
 }
 
 .btn1 {
-    box-sizing: border-box;
-    appearance: none;
-    background-color: transparent;
-    border: 2px solid #5bb600 !important;
-    border-radius: 0.6em;
-    color: #5bb600;
-    cursor: pointer;
-    display: flex;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 10px;
-    padding: 10px 10px;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-  }
-  .btn1:hover,
-  .btn1:focus {
-    color: #fff;
-    outline: 0;
-  }
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #5bb600 !important;
+  border-radius: 0.6em;
+  color: #5bb600;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px;
+  padding: 10px 10px;
+  margin-left: 2.8vw;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.btn1:hover,
+.btn1:focus {
+  color: #fff;
+  outline: 0;
+}
 
 .del {
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
@@ -102,31 +104,31 @@ input::-webkit-inner-spin-button {
 }
 
 .btn2 {
-    box-sizing: border-box;
-    appearance: none;
-    background-color: transparent;
-    border: 2px solid #3498db !important;
-    border-radius: 0.6em;
-    color: #3498db;
-    cursor: pointer;
-    display: flex;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    /* margin: 10px; */
-    padding: 10px 10px;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-  }
-  .btn2:hover,
-  .btn2:focus {
-    color: #fff;
-    outline: 0;
-  }
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #3498db !important;
+  border-radius: 0.6em;
+  color: #3498db;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  /* margin: 10px; */
+  padding: 10px 10px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.btn2:hover,
+.btn2:focus {
+  color: #fff;
+  outline: 0;
+}
 
 .sbmt {
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
@@ -200,6 +202,10 @@ input::-webkit-inner-spin-button {
   transform: scale(1.02);
 }
 
+.lnk{
+  margin-left: 1.7vw;
+}
+
 .blank {
   color: #ffffff;
   font-size: 2.5vh;
@@ -236,10 +242,10 @@ input::-webkit-inner-spin-button {
   transform: scale(1.1);
 }
 
-.btn2{
-    margin-top: 20px;
-    margin-left: 1vw;
-  }
+.btn2 {
+  margin-top: 20px;
+  margin-left: 2.7vw;
+}
 
 @media only screen and (max-width: 1400px) {
   .formMain {
@@ -313,7 +319,7 @@ input::-webkit-inner-spin-button {
     width: 90%;
   }
 
-  .groupname{
+  .groupname {
     display: block;
     width: 100%;
     margin-left: -3vw;
@@ -321,7 +327,7 @@ input::-webkit-inner-spin-button {
     height: 40px;
   }
 
-  .lnk{
+  .lnk {
     margin-left: 3vw;
   }
 
@@ -330,9 +336,19 @@ input::-webkit-inner-spin-button {
     font-size: 1.5vw;
   }
 
-  .btn2{
+  .btn2 {
     margin-top: 20px;
     margin-left: 2vw;
+  }
+
+  .btn{
+    margin-left: 0;
+  }
+
+  
+
+  .btn1{
+    margin-left: 3vw;
   }
 }
 
