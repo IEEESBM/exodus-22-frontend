@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 import { Formik, Field, Form, ErrorMessage, FieldArray } from 'formik';
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
-import { Navigate } from 'react-router-dom';
 
 const initialValues = {
   details: [
@@ -30,12 +29,16 @@ function Submission() {
             initialValues={initialValues}
             onSubmit={async (values) => {
               document.querySelector('.sbmt').style.display = 'none';
-              const doc = {
+              let doc = {
                 details: values.details,
                 link: document.querySelector('.lnkval').value
               }
+              doc = JSON.stringify(doc)
+              const headers = {
+                'Content-Type': 'application/json',
+              }
               if (values.details.length < 5 && values.details.length > 0) {
-                axios.post('http://localhost:3010/submit', doc)
+                axios.post('https://exodus3-8c774-default-rtdb.firebaseio.com/exodus_submissions.json', doc,{headers:headers})
                   .then(function (response) {
                     if (response.status === 200) {
                       navigate('/thankyou');
