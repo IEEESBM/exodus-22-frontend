@@ -22,19 +22,19 @@ const Navbar = () => {
                                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/about">About</Link>
+                                <Link className="nav-link active" to="/about">About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/faq">FAQ</Link>
+                                <Link className="nav-link active" to="/faq">FAQ</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/rules">Rules</Link>
+                                <Link className="nav-link active" to="/rules">Rules</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/timeline">Timeline</Link>
+                                <Link className="nav-link active" to="/timeline">Timeline</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/submission">Submission</Link>
+                                <Link className="nav-link active" to="/submission">Submission</Link>
                             </li>
 
                         </ul>

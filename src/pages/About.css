@@ -2,6 +2,7 @@
 
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 .about-body {
     font-family: 'Century Schoolbook', sans-serif;
